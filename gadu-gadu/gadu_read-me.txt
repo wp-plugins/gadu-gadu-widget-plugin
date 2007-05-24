@@ -1,0 +1,50 @@
+﻿=== Imieniny Widgetized Plugin ===
+Contributors: deaconjim
+Donate link: http://konicki.com/blog2/downloads/imieniny-wordpress-plugin/
+Tags: gadu-gadu, IM, kontakt, contacts, messaging
+Requires at least: 2.0
+Tested up to: 2.1.3
+Stable tag: alpha 0.1
+
+== Description ==
+
+Gadu-Gadu (Polish for "chit-chat") is a Polish IM client.
+
+The widget provides your Gadu-Gadu status (statusu) and allows people to add you to their list of contacts (kontakt).
+
+I did a little searching and found the php calls needed to obtain a person's Gadu-Gadu status.  The best example was at the <a href="http://kacper.hostingposts.com/dev/im_status.html">Mirage Project</a>.
+
+The script is UTF-8 compliant for handling Polish diacritics. 
+
+The Gadu-Gadu widget is provided as-is.  There are no guarantees as to suitablity or workability.
+
+The plugin is based on the Gadu-Gadu PHP script as found at the Mirage Project
+WWW: http://kacper.hostingposts.com/dev/im_status.html
+
+
+== Pre-requisites ==
+
+Your theme must have widget support
+Automattic's Widgets must be installed (see: http://automattic.com/code/widgets/)
+You should be familiar with the installation of plugins and the modification of themes via placing widgets in the Presentation section of your WordPress administrator's panel.
+
+== Installation ==
+
+To install:
+
+Unpack
+FTP the gadu-gadu directory to your WordPress plug-ins directory
+Activate the plug-in
+Drag the Gadu widget to the preferred locale on your sidebar 
+Set your Gadu-Gadu user number (konta)
+
+== Mods ==
+
+You can change the title of the widget.
+
+
+== Change log ==
+
+05/16/2007: alpha 0.1
+
+	Created the widget with basic functionality
